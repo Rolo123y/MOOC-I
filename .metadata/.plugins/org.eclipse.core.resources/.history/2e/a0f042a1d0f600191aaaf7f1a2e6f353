@@ -1,0 +1,13 @@
+package week1;
+
+import java.util.Scanner;
+
+public class main022 {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        String password = "carrot"; // Use carrot as password when running tests.
+
+        // Write your code here
+    }
+}

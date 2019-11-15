@@ -1,0 +1,65 @@
+package week2;
+
+public class PrintingLikeABoss {
+
+	public static void main(String[] args) {
+		// printLeftTriangle(5);
+		// printRightTriangle(5);
+		printXmasTree(6);
+	}
+
+	public static void printWhiteSpaces(int size) {
+		while (size > 0) {
+			System.out.print("*");
+			size--;
+		}
+	}
+
+	public static void printLeftTriangle(int height) {
+		for (int i = 0; i < height; i++) {
+			for (int j = height - 1; j > i; j--) {
+				System.out.print(' ');
+			}
+			for (int k = height; k > height - i - 1; k--) {
+				System.out.print('*');
+			}
+			System.out.println();
+		}
+	}
+
+	public static void printRightTriangle(int size) {
+		for (int i = 0; i < size; ++i) {
+			for (int j = 0; j < i; j++) {
+				System.out.print('*');
+			}
+			System.out.println('*');
+		}
+	}
+
+	public static void printXmasTree(int height) {
+		int count = height;
+
+		for (int i = 0; i < height; i++) {
+			for (int j = height - 1; j > i; j--) {
+				System.out.print(' ');
+			}
+			for (int k = height; k > height - i - 1; k--) {
+				System.out.print('*');
+			}
+			for (int j = 0; j < i; j++) {
+				System.out.print('*');
+			}
+			System.out.println();
+		}
+
+		for (int i = 0; i < 2; i++) {
+			for (int k = 0; k <= count / 2; k++) {
+				System.out.print(' ');
+			}
+			for (int j = 1; j < 3; ++j) {
+				System.out.print('*');
+			}
+			System.out.println('*');
+		}
+	}
+}

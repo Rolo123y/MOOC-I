@@ -1,0 +1,18 @@
+package week3;
+
+import java.util.Scanner;
+
+public class main048 {
+	// Create a program that asks for the user's name and gives the first character.
+	static Scanner reader = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		System.out.print("Type your name: ");
+		String name = reader.next();
+		System.out.println("First character: " + firstCharacter(name));
+	}
+
+	public static char firstCharacter(String text) {
+		return text.charAt(0);
+	}
+}

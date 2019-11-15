@@ -1,0 +1,25 @@
+package week4;
+
+import java.util.Scanner;
+
+public class main076 {
+	static Scanner reader = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Menu menue = new Menu();
+
+		menue.addMeal("Hamburger");
+		menue.addMeal("Fish'n'Chips");
+		menue.addMeal("Sauerkraut");
+		menue.printMeals();
+
+		System.out.println("Want to clear the menue?(y or n)");
+		if (reader.nextLine().equals("y")) {
+			menue.clearMenue();
+			System.out.println("Successfully cleared!");
+		} else {
+			System.out.println("Your final Menue!");
+			menue.printMeals();
+		}
+	}
+}

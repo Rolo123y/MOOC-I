@@ -1,0 +1,35 @@
+package week3;
+
+import java.util.Scanner;
+
+public class main053 {
+	// Create a program that prints the first part of a word. The program asks the
+	// user for the word and the length of the first part. Use the substring method
+	// in your program.
+	static Scanner reader = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		System.out.print("Type a word: ");
+		String word = reader.next();
+		System.out.print("Length of the first part: ");
+		int length = reader.nextInt();
+		System.out.println("Result: " + firstpart(word, length));
+	}
+
+	public static String reverse(String text) {
+		String rev = "";
+		for (int i = text.length() - 1; i >= 0; i--) {
+			rev += text.charAt(i);
+		}
+		return rev;
+	}
+
+	public static String firstpart(String text, int length) {
+		int diff = text.length() - length;
+		String revtext = reverse(text);
+		revtext = revtext.substring(diff);
+		revtext = reverse(revtext);
+		return revtext;
+	}
+
+}

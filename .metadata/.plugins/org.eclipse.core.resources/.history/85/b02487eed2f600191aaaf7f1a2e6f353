@@ -1,0 +1,30 @@
+package week2;
+
+import java.util.Scanner;
+
+public class Lowerlimitandupperlimit {
+	// Create a program that asks the user for the first number and the last number
+	// and then prints all numbers between those two.
+
+	static Scanner reader = new Scanner(System.in);
+
+	public static void main(String args[]) {
+
+		System.out.print("Lower bound: ");
+		int first = reader.nextInt();
+		System.out.print("Upper bound: ");
+		int second = reader.nextInt();
+		int i = 0;
+		if (first <= second) {
+			while (i >= 0) {
+				if (i >= first && i <= second) {
+					System.out.println(i);
+				}
+				i++;
+			}
+		} else {
+			System.out.println("error!");
+		}
+
+	}
+}

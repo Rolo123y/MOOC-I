@@ -1,0 +1,25 @@
+package week2;
+
+import java.util.Scanner;
+
+public class ManyPrints {
+	// Develop the program by adding the following feature: the main program should
+	// ask the user how many times the text should be printed (meaning how many
+	// times the method is called).
+
+	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in);
+		System.out.println("what text?");
+		String text = reader.nextLine();
+		System.out.print("how many? ");
+		int num = reader.nextInt();
+		PrintText(num, text);
+	}
+
+	public static void PrintText(int num, String text) {
+		while (num != 0) {
+			System.out.println(text);
+			num--;
+		}
+	}
+}

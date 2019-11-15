@@ -1,0 +1,20 @@
+package week5;
+
+public class Reformatory {
+
+	private int weightsMeasureCount = 0;
+
+	public int weight(Person_ person) {
+		this.weightsMeasureCount++;
+		return person.getWeight();
+	}
+
+	public void feed(Person_ person) {
+		person.setWeight(person.getWeight() + 1);
+	}
+
+	public int totalWeightsMeasured() {
+		return this.weightsMeasureCount;
+	}
+
+}

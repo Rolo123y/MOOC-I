@@ -1,0 +1,27 @@
+package week1;
+
+public class main003 {
+
+	public static void main(String[] args) {
+		for (int i = 0; i < 5; i++) {
+			printSpace(5 - i + 1);
+			printStars(i  );
+			printStars(i );
+			printSpace(5 - i + 1);
+			System.out.println();
+		}
+	}
+
+	public static void printSpace(int num) {
+		for (int i = 0; i < num; i++) {
+			System.out.print(" ");
+		}
+	}
+
+	public static void printStars(int num) {
+		for (int i = 0; i < num; i++) {
+			System.out.print("*");
+		}
+	}
+
+}

@@ -1,0 +1,55 @@
+package week5;
+
+import java.util.Calendar;
+
+import week5.MyDate;
+
+public class Person_ {
+	private String name;
+	private MyDate birthday;
+
+	public Person_(String name, int pp, int kk, int vv) {
+		this.name = name;
+		this.birthday = new MyDate(pp, kk, vv);
+	}
+
+	public Person_(String name, MyDate birthday) {
+		this.name = name;
+		this.birthday = birthday;
+	}
+
+	public Person_(String name) {
+		this.name = name;
+
+		int day = Calendar.getInstance().get(Calendar.DATE);
+		int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
+		int year = Calendar.getInstance().get(Calendar.YEAR);
+
+		this.birthday = new MyDate(day, month, year);
+	}
+
+	public int age() {
+		int day = Calendar.getInstance().get(Calendar.DATE);
+		int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
+		int year = Calendar.getInstance().get(Calendar.YEAR);
+		MyDate todayDate = new MyDate(day, month, year);
+		int diff = birthday.differenceInYears(todayDate);
+		return diff;
+	}
+
+	public boolean olderThan(Person_ compared) {
+		if (this.birthday.earlier(compared.birthday)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public String toString() {
+		return this.name + ", born " + this.birthday;
+	}
+}

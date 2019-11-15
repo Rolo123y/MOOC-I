@@ -1,0 +1,51 @@
+package week2;
+
+public class Printing {
+
+	// Create a method printStars that prints the given amount of stars and a line
+		// break.
+		public static void main(String[] args) {
+			System.out.println("line of stars");
+			printStars(5);
+			System.out.println("\nsquare of stars");
+			printSquare(4);
+			System.out.println("\nrectangle of stars");
+			printRectangle(8, 3);
+			System.out.println("\ntriangle of stars");
+			printTriangle(4);
+		}
+
+		public static void printStars(int num) {
+			for (int i = 0; i < num; ++i) {
+				System.out.print('*');
+			}
+		}
+
+		public static void printSquare(int size) {
+			for (int i = 0; i < size; ++i) {
+				for (int j = 1; j < size; ++j) {
+					System.out.print('*');
+				}
+				System.out.println('*');
+			}
+		}
+
+		public static void printRectangle(int width, int height) {
+			for (int i = 0; i < height; i++) {
+				for (int j = 1; j < width; ++j) {
+					System.out.print('*');
+				}
+				System.out.println('*');
+			}
+		}
+
+		public static void printTriangle(int size) {
+			for (int i = 0; i < size; ++i) {
+				for (int j = 0; j < i; j++) {
+					System.out.print('*');
+				}
+				System.out.println('*');
+			}
+		}
+
+}

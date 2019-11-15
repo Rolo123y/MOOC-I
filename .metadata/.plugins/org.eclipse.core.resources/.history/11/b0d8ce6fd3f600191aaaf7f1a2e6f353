@@ -1,0 +1,54 @@
+package week2;
+
+import java.util.*;
+
+public class GuessingANumberGame {
+
+	static Scanner reader = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		boolean restart = true;
+		do {
+			Random rand = new Random();
+			int solution = rand.nextInt(51);
+			System.out.println(solution);
+			System.out.print("Guess the number(0-50): ");
+			int guess = reader.nextInt();
+			if (answer(guess, solution) == true) {
+				System.out.println("Congratulations, your guess is correct!");
+				// System.out.println("guesses made: " + );
+				System.out.println("play again?(y or n)");
+				String r = reader.next();
+				restart = GuessingANumberGame.launch(r);
+			}
+		} while (restart);
+	}
+
+	public static boolean launch(String r) {
+		if (r.equals("y")) {
+			return true;
+		}
+		return false;
+	}
+
+	public static boolean answer(int num, int solution) {
+		if (num == -1) {
+			System.exit(0);
+		}
+		while (num != solution) {
+			if (solution > num) {
+				System.out.println("The number is greater");
+				System.out.print("Guess again(-1 to quit): ");
+				num = reader.nextInt();
+				answer(num, solution);
+			}
+			if (solution < num) {
+				System.out.println("The number is lesser");
+				System.out.print("Guess again(-1 to quit): ");
+				num = reader.nextInt();
+				answer(num, solution);
+			}
+		}
+		return true;
+	}
+}

@@ -1,0 +1,9 @@
+package week1;
+
+import nhlstats.NHLStatistics;
+
+public class main013 {
+
+    public static void main(String[] args) {
+    }
+}

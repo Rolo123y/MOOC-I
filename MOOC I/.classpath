@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="001.Name"/>
+	<classpathentry kind="src" path="002.HelloWorld"/>
+	<classpathentry kind="src" path="003.Spruce"/>
+	<classpathentry kind="src" path="004.ChangingVariables"/>
+	<classpathentry kind="src" path="005.SecondsOfTheYear"/>
+	<classpathentry kind="src" path="006.Addition"/>
+	<classpathentry kind="src" path="007.Multiplication"/>
+	<classpathentry kind="src" path="008.Adder"/>
+	<classpathentry kind="src" path="009.Divider"/>
+	<classpathentry kind="src" path="010.CircleCircumference"/>
+	<classpathentry kind="src" path="011.BiggerNumber"/>
+	<classpathentry kind="src" path="012.SumOfTheAges"/>
+	<classpathentry kind="src" path="013.NhlStatisticsPart1"/>
+	<classpathentry kind="src" path="014.PositiveValue"/>
+	<classpathentry kind="src" path="015.AgeOfMajority"/>
+	<classpathentry kind="src" path="016.EvenOrOdd"/>
+	<classpathentry kind="src" path="017.GreaterNumber"/>
+	<classpathentry kind="src" path="018.GradesAndPoints"/>
+	<classpathentry kind="src" path="019.AgeCheck"/>
+	<classpathentry kind="src" path="020.Usernames"/>
+	<classpathentry kind="src" path="021.LeapYear"/>
+	<classpathentry kind="src" path="022.Password"/>
+	<classpathentry kind="src" path="023.Temperatures"/>
+	<classpathentry kind="src" path="024.NhlStatisticsPart2"/>
+	<classpathentry kind="src" path="025.SumOfThreeNumbers"/>
+	<classpathentry kind="src" path="026.SumOfManyNumbers"/>
+	<classpathentry kind="src" path="027.OneTo100"/>
+	<classpathentry kind="src" path="028.100ToOne"/>
+	<classpathentry kind="src" path="029.EvenNum"/>
+	<classpathentry kind="src" path="030.UpToACertainNumber"/>
+	<classpathentry kind="src" path="031.LowerLimitAndUpperLimit"/>
+	<classpathentry kind="src" path="032.SumOfASetOfNumbers"/>
+	<classpathentry kind="src" path="033.SumBetweenTwoNumbers"/>
+	<classpathentry kind="src" path="034.Factorial"/>
+	<classpathentry kind="src" path="035.SumOfThePowers"/>
+	<classpathentry kind="src" path="036.LoopsEndingAndRemembering"/>
+	<classpathentry kind="src" path="037.PrintingOutText"/>
+	<classpathentry kind="src" path="038.ManyPrints"/>
+	<classpathentry kind="src" path="039.Printing"/>
+	<classpathentry kind="src" path="040.PrintintLikeABoss"/>
+	<classpathentry kind="src" path="041.GuessingANumberGame"/>
+	<classpathentry kind="src" path="042.TextBasedUIForHangman"/>
+	<classpathentry kind="src" path="043.SumOfNumbers"/>
+	<classpathentry kind="src" path="044.Least"/>
+	<classpathentry kind="src" path="045.Greatest"/>
+	<classpathentry kind="src" path="046.AverageOfGivenNumbers"/>
+	<classpathentry kind="src" path="047.LengthOfAName"/>
+	<classpathentry kind="src" path="048.FirstCharacter"/>
+	<classpathentry kind="src" path="049.LastCharacter"/>
+	<classpathentry kind="src" path="050.SeparatingFirstCharacters"/>
+	<classpathentry kind="src" path="051.SeparatingCharacters"/>
+	<classpathentry kind="src" path="052.ReversingAName"/>
+	<classpathentry kind="src" path="053.FirstPart"/>
+	<classpathentry kind="src" path="054.TheEndPart"/>
+	<classpathentry kind="src" path="055.AWordInsideAWord"/>
+	<classpathentry kind="src" path="056.ReversingText"/>
+	<classpathentry kind="src" path="057.Words"/>
+	<classpathentry kind="src" path="058.RecurringWord"/>
+	<classpathentry kind="src" path="059.WordsInReverseOrder"/>
+	<classpathentry kind="src" path="060.WordsInAlphabeticalOrder"/>
+	<classpathentry kind="src" path="061.AmountOfItemsInAList"/>
+	<classpathentry kind="src" path="062.RemoveLast"/>
+	<classpathentry kind="src" path="063.SumOfTheNumbers"/>
+	<classpathentry kind="src" path="064.AverageOfNumbers"/>
+	<classpathentry kind="src" path="065.LengthOfTheStrings"/>
+	<classpathentry kind="src" path="066.TheGreatest"/>
+	<classpathentry kind="src" path="067.Variance"/>
+	<classpathentry kind="src" path="068.IsTheNumberRecurringInList"/>
+	<classpathentry kind="src" path="069.Palindrome"/>
+	<classpathentry kind="src" path="070.CombiningArrayLists"/>
+	<classpathentry kind="src" path="071.SmartCombining"/>
+	<classpathentry kind="src" path="072.Accounts"/>
+	<classpathentry kind="src" path="073.Product"/>
+	<classpathentry kind="src" path="074.Multiplier"/>
+	<classpathentry kind="src" path="075.DecreasingCounter"/>
+	<classpathentry kind="src" path="076.Menu"/>
+	<classpathentry kind="src" path="077.Lyyra-Card"/>
+	<classpathentry kind="src" path="078.ClockUsingACounter"/>
+	<classpathentry kind="src" path="079.NumberStatistics"/>
+	<classpathentry kind="src" path="080.RollingTheDice"/>
+	<classpathentry kind="src" path="081.PasswordRandomizer"/>
+	<classpathentry kind="src" path="082.Lottery"/>
+	<classpathentry kind="src" path="083.GameLogicForHangman"/>
+	<classpathentry kind="src" path="084.OverloadedCounter"/>
+	<classpathentry kind="src" path="085.Reformatory"/>
+	<classpathentry kind="src" path="086.Lyyra-CardAndCashRegister"/>
+	<classpathentry kind="src" path="087.ApartmentComparison"/>
+	<classpathentry kind="src" path="088.Students"/>
+	<classpathentry kind="src" path="089.ClockObject"/>
+	<classpathentry kind="src" path="090.TeamAndPlayers"/>
+	<classpathentry kind="src" path="091.ExtendingMyDate"/>
+	<classpathentry kind="src" path="092.DifferenceOfTwoDates"/>
+	<classpathentry kind="src" path="093.PersonExtended"/>
+	<classpathentry kind="src" path="094.PhoneBook"/>
+	<classpathentry kind="src" path="095.Money"/>
+	<classpathentry kind="src" path="096.SumOfTheArray"/>
+	<classpathentry kind="src" path="097.ElegantPrintingOfArray"/>
+	<classpathentry kind="src" path="098.ReversingAndCopyingAnArray"/>
+	<classpathentry kind="src" path="099.ArraysToStars"/>
+	<classpathentry kind="src" path="100.NightSky"/>
+	<classpathentry kind="src" path="101.LibraryInformationSystem"/>
+	<classpathentry kind="src" path="102.GradeDistribution"/>
+	<classpathentry kind="src" path="103.BirdwatchersDatabase"/>
+	<classpathentry kind="src" path="104.Sorting"/>
+	<classpathentry kind="src" path="105.GuessingGame"/>
+	<classpathentry kind="src" path="106.ImplementationOfBinarySearch"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/cglib-nodep-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/easymock-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/edu-test-utils-0.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/javassist-3.18.2-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/objenesis-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ruhol/Desktop/MOOC - Workbench/MOOC 1/bin/023.Temperatures/lib/powermock-easymock-1.5.5-full.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
